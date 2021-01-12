@@ -1,0 +1,29 @@
+body {
+    background-color: #938F8E;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.block {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: calc(50% - 75px);
+    left: calc(50% - 75px);
+    width: 150px;
+    height: 150px; 
+    background:#FF8100;
+    border-radius: 10px;
+}
+
+.text {
+    display: none;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.show { 
+    display: block;
+}
